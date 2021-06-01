@@ -1,0 +1,27 @@
+header > img{
+    width: 60px;
+}
+
+header{
+    background-image: url("../images/hyperbeast.jpg");
+    display: flex;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li > a{
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+
