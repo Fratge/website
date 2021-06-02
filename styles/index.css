@@ -1,26 +1,58 @@
-header > div > img {
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #181818;
+}
+
+.square {
+  margin: 200px;
+  height: 500px;
+  width: 75%;
+  border: 5px solid blue;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+  box-shadow: 1px 1px 12px #555;
+}
+
+.square-logo {
+  height: 250px;
+  width: 250px;
+}
+.logo {
   width: 60px;
 }
 
-header {
-  background-image: url('../images/hyperbeast.jpg');
-  height: 400px;
+.header {
+  background-color: #181818;
+  height: 65px;
   display: flex;
+  border-bottom: #9ca3af 2px solid;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
 }
 
-nav {
+.header-name {
+  font-family: 'Limelight', cursive;
+  padding: 20px;
+  color: white;
+}
+.navbar {
+  overflow: hidden;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
-nav > ul {
+.header-items {
   display: flex;
   list-style: none;
 }
 
-nav > ul > li > a {
+.header-link {
   padding: 10px;
-  color: green;
+  color: white;
   text-decoration: none;
 }
