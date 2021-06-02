@@ -56,3 +56,14 @@ body {
   color: white;
   text-decoration: none;
 }
+
+footer {
+  border-top: #9ca3af 2px solid;
+  text-decoration: none;
+  text-align: center;
+  height: 55px;
+}
+
+.footer-name {
+  color: green;
+}
