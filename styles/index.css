@@ -1,25 +1,29 @@
-header > div > img {
+.logo {
   width: 60px;
 }
 
-header {
+.header {
   background-image: url('../images/hyperbeast.jpg');
-  height: 400px;
+  height: 100px;
   display: flex;
+  border-bottom: red 1px solid;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
 }
 
-nav {
+.navbar {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-nav > ul {
+.header-items {
   display: flex;
   list-style: none;
 }
 
-nav > ul > li > a {
+.header-link {
   padding: 10px;
   color: green;
   text-decoration: none;
