@@ -56,6 +56,17 @@ body {
   width: 250px;
 }
 
+#square-iam{
+  font-size: xx-large;
+  position: relative;
+}
+
+#square-name{
+  color: #27b05e;
+  font-size: xx-large;
+  position: relative;
+}
+
 .switch {
   position: relative;
   display: inline-block;
