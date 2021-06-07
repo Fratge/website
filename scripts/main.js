@@ -1,5 +1,7 @@
 import '@fontsource/limelight/400.css'
 import '@fontsource/montserrat/400.css'
+import '../styles/index.css'
+import 'normalize.css'
 
 const themeButton = document.getElementById('theme-button')
 const body = document.querySelector('body')
