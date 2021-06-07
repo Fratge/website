@@ -26,7 +26,7 @@ body {
 }
 
 .square-main {
-  min-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,8 +36,6 @@ body {
 }
 
 .square {
-  min-height: 100px;
-  height: 100%;
   width: 75%;
   border: 5px solid blue;
   border-image: linear-gradient(to right, #11998e, #38ef7d);
