@@ -25,23 +25,6 @@ body {
   width: 60px;
 }
 
-.header {
-  background-color: var(--background-color);
-  padding: 0 15px;
-  height: 65px;
-  display: flex;
-  border-bottom: var(--border-color) 2px solid;
-  position: sticky;
-  top: 0px;
-  z-index: 20;
-}
-
-.header-name {
-  font-family: 'Limelight', cursive;
-  padding: 20px;
-  color: var(--color);
-}
-
 .square-main {
   min-height: 100%;
   display: flex;
@@ -72,41 +55,4 @@ body {
 .square-logo {
   height: 250px;
   width: 250px;
-}
-
-.navbar {
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.header-items {
-  display: flex;
-  list-style: none;
-}
-
-.header-link {
-  padding: 10px;
-  color: var(--color);
-  text-decoration: none;
-}
-
-.footer {
-  border-top: var(--border-color) 2px solid;
-  text-decoration: none;
-  text-align: center;
-  height: 55px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-name {
-  color: #27b05e;
-}
-
-.footer-copyright {
-  color: var(--color);
 }

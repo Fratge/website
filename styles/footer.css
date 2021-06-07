@@ -1,0 +1,18 @@
+.footer {
+  border-top: var(--border-color) 2px solid;
+  text-decoration: none;
+  text-align: center;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-name {
+  color: #27b05e;
+}
+
+.footer-copyright {
+  color: var(--color);
+}

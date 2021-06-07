@@ -1,0 +1,34 @@
+.header {
+  background-color: var(--background-color);
+  padding: 0 15px;
+  height: 65px;
+  display: flex;
+  border-bottom: var(--border-color) 2px solid;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
+}
+
+.header-navbar {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-name {
+  font-family: 'Limelight', cursive;
+  padding: 20px;
+  color: var(--color);
+}
+
+.header-items {
+  display: flex;
+  list-style: none;
+}
+
+.header-link {
+  padding: 10px;
+  color: var(--color);
+  text-decoration: none;
+}
