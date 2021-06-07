@@ -1,25 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
-
 body {
   padding: 0;
   margin: 0;
   background-color: #181818;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.square {
-  margin: 200px;
-  height: 500px;
-  width: 75%;
-  border: 5px solid blue;
-  border-image: linear-gradient(to right, #11998e, #38ef7d);
-  border-image-slice: 1;
-  box-shadow: 1px 1px 12px #555;
-}
-
-.square-logo {
-  height: 250px;
-  width: 250px;
-}
 .logo {
   width: 60px;
 }
@@ -39,6 +26,30 @@ body {
   padding: 20px;
   color: white;
 }
+
+.square-main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.square {
+  height: 100%;
+  width: 75%;
+  border: 5px solid blue;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+  box-shadow: 1px 1px 12px #555;
+}
+
+.square-logo {
+  height: 250px;
+  width: 250px;
+}
+
 .navbar {
   overflow: hidden;
   width: 100%;
@@ -62,6 +73,8 @@ footer {
   text-decoration: none;
   text-align: center;
   height: 55px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-name {

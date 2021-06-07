@@ -1,6 +1,12 @@
 {
   "extends": ["eslint-config-prettier"],
   "plugins": ["eslint-plugin-prettier"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "es2021": true
+  },
   "rules": {
     "prettier/prettier": "error"
   }

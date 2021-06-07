@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html"
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fontsource/limelight": "^4.4.5",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
