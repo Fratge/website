@@ -49,16 +49,24 @@ body {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
+  position: relative;
 }
 
 .square {
   height: 100%;
-  min-height: 200px;
   width: 75%;
   border: 5px solid blue;
   border-image: linear-gradient(to right, #11998e, #38ef7d);
   border-image-slice: 1;
   box-shadow: 1px 1px 12px #555;
+}
+
+#theme-button {
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  margin-bottom: 15px;
 }
 
 .square-logo {
