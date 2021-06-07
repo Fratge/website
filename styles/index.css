@@ -1,10 +1,12 @@
 body {
+  color: white;
   padding: 0;
   margin: 0;
   background-color: #181818;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Montserrat', 'Arial', 'sans-serif';
 }
 
 .logo {
@@ -13,6 +15,7 @@ body {
 
 .header {
   background-color: #181818;
+  padding: 0 15px;
   height: 65px;
   display: flex;
   border-bottom: #9ca3af 2px solid;
@@ -38,6 +41,7 @@ body {
 
 .square {
   height: 100%;
+  min-height: 200px;
   width: 75%;
   border: 5px solid blue;
   border-image: linear-gradient(to right, #11998e, #38ef7d);
@@ -68,15 +72,21 @@ body {
   text-decoration: none;
 }
 
-footer {
+.footer {
   border-top: #9ca3af 2px solid;
   text-decoration: none;
   text-align: center;
   height: 55px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-name {
-  color: green;
+  color: #27b05e;
+}
+
+.footer-copyright {
+  color: white;
 }

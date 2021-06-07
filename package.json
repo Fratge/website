@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@fontsource/limelight": "^4.4.5",
+    "@fontsource/montserrat": "^4.4.5",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
