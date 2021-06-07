@@ -1,8 +1,20 @@
+.dark {
+  --background-color: #181818;
+  --color: white;
+  --border-color: #9ca3af;
+}
+
+.light {
+  --background-color: white;
+  --color: black;
+  --border-color: black;
+}
+
 body {
-  color: white;
+  color: var(--color);
   padding: 0;
   margin: 0;
-  background-color: #181818;
+  background-color: var(--background-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,11 +26,11 @@ body {
 }
 
 .header {
-  background-color: #181818;
+  background-color: var(--background-color);
   padding: 0 15px;
   height: 65px;
   display: flex;
-  border-bottom: #9ca3af 2px solid;
+  border-bottom: var(--border-color) 2px solid;
   position: sticky;
   top: 0px;
   z-index: 20;
@@ -27,7 +39,7 @@ body {
 .header-name {
   font-family: 'Limelight', cursive;
   padding: 20px;
-  color: white;
+  color: var(--color);
 }
 
 .square-main {
@@ -68,12 +80,12 @@ body {
 
 .header-link {
   padding: 10px;
-  color: white;
+  color: var(--color);
   text-decoration: none;
 }
 
 .footer {
-  border-top: #9ca3af 2px solid;
+  border-top: var(--border-color) 2px solid;
   text-decoration: none;
   text-align: center;
   height: 55px;
@@ -88,5 +100,5 @@ body {
 }
 
 .footer-copyright {
-  color: white;
+  color: var(--color);
 }
