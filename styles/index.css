@@ -38,10 +38,9 @@ body {
   width: 250px;
 }
 
-#square-iam {
+.square-text {
   margin-left: 16px;
-  font-size: xx-large;
-  position: relative;
+  font-size: 23px;
 }
 
 #square-name {

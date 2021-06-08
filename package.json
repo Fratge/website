@@ -14,6 +14,7 @@
   "dependencies": {
     "@fontsource/limelight": "^4.4.5",
     "@fontsource/montserrat": "^4.4.5",
+    "corejs": "^1.0.0",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

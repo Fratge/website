@@ -5,7 +5,8 @@
     "sourceType": "module"
   },
   "env": {
-    "es2021": true
+    "es2021": true,
+    "jsx": true
   },
   "rules": {
     "prettier/prettier": "error"
