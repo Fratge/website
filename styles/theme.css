@@ -18,6 +18,10 @@
   margin-bottom: 15px;
 }
 
+.sticky-button {
+  position: sticky;
+  bottom: 0;
+}
 .switch {
   position: relative;
   display: inline-block;
@@ -78,5 +82,3 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
-

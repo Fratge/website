@@ -24,11 +24,13 @@ body {
 }
 
 .square {
+  padding: 15px;
   width: 75%;
   border: 5px solid blue;
   border-image: linear-gradient(to right, #11998e, #38ef7d);
   border-image-slice: 1;
   box-shadow: 1px 1px 12px #555;
+  display: flex;
 }
 
 .square-logo {
@@ -36,14 +38,14 @@ body {
   width: 250px;
 }
 
-#square-iam{
+#square-iam {
+  margin-left: 16px;
   font-size: xx-large;
   position: relative;
 }
 
-#square-name{
+#square-name {
   color: #27b05e;
   font-size: xx-large;
   position: relative;
 }
-
