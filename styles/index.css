@@ -14,7 +14,7 @@ body {
 }
 
 .square-main {
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +32,7 @@ body {
   border-image-slice: 1;
   box-shadow: 1px 1px 12px #555;
   display: flex;
+  margin-bottom: 12px;
 }
 
 @media (max-width: 606px) {
@@ -64,6 +65,7 @@ body {
 }
 
 #square-name,
-#square-social {
+#square-social,
+#square-projects {
   color: #27b05e;
 }
