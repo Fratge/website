@@ -3,7 +3,7 @@ import React from 'react'
 import { render } from 'react-dom'
 
 function starsCounter(stars) {
-  if (stars >= 1) {
+  if (stars >= 10) {
     return stars
   }
   let emojiStars = ''
