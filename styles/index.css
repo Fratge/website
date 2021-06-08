@@ -24,6 +24,7 @@ body {
 }
 
 .square {
+  margin-top: 75px;
   padding: 15px;
   width: 75%;
   border: 5px solid blue;
@@ -45,13 +46,24 @@ body {
   width: 250px;
 }
 
+.square-icons {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}
 .square-text {
   margin-left: 16px;
-  font-size: 23px;
+  font-size: 30px;
 }
 
-#square-name {
+.icons {
+  display: flex;
+  margin-top: 200px;
+  list-style: none;
+}
+
+#square-name,
+#square-social {
   color: #27b05e;
-  font-size: xx-large;
-  position: relative;
 }
