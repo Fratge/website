@@ -1,12 +1,14 @@
 {
-  "extends": ["eslint-config-prettier"],
+"extends": ["standard", "standard-jsx", "eslint-config-prettier"],
   "plugins": ["eslint-plugin-prettier"],
   "parserOptions": {
     "sourceType": "module"
   },
   "env": {
     "es2021": true,
-    "jsx": true
+    "node": true,
+    "browser": true,
+    "jest": true
   },
   "rules": {
     "prettier/prettier": "error"

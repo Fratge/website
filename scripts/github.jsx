@@ -1,17 +1,7 @@
 import 'regenerator-runtime/runtime'
 import React from 'react'
 import { render } from 'react-dom'
-
-function starsCounter(stars) {
-  if (stars >= 10) {
-    return stars
-  }
-  let emojiStars = ''
-  for (let index = 0; index < stars; index++) {
-    emojiStars += '⭐'
-  }
-  return emojiStars
-}
+import { starsCounter } from './functions/starsCounter.js'
 
 function GitHub() {
   const [stars, setStars] = React.useState(0)
