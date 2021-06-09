@@ -27,7 +27,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "jest": "^27.0.4",
-    "parcel": "^1.12.4",
     "parcel-bundler": "^1.12.5",
     "prettier": "^2.3.0"
   }
